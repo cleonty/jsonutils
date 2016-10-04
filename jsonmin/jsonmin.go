@@ -13,7 +13,7 @@ func main() {
 	filename := ""
 	if len(args) > 1 {
 		filename = args[1]
-		content, err := jsonutils.PrettifyFile(filename)
+		content, err := jsonutils.MinifyFile(filename)
 		if err != nil {
 			fmt.Println(err)
 			return
