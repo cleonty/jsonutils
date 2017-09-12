@@ -3,3 +3,10 @@
 
 # jsonutils
 
+## jsonmin - minifies a JSON file inplace
+
+Usage:
+```
+jsonmin file.json
+```
+
