@@ -10,3 +10,9 @@ Usage:
 jsonmin file.json
 ```
 
+## jsonfmt - makes a JSON file pretty
+
+Usage:
+```
+jsonfmt file.json
+```
