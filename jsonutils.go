@@ -6,6 +6,9 @@ import (
 	"io/ioutil"
 )
 
+// MinifyFile reads the file named filename,
+// strips whitespace and newline characters,
+// and returns its content as a string
 func MinifyFile(filename string) (string, error) {
 	content, err := ioutil.ReadFile(filename)
 	if err != nil {
@@ -23,6 +26,9 @@ func MinifyFile(filename string) (string, error) {
 	return string(minifiedContent), nil
 }
 
+// PrettifyFile reads the file named filename,
+// indents with two spaces,
+// and returns its content as a string
 func PrettifyFile(filename string) (string, error) {
 	content, err := ioutil.ReadFile(filename)
 	if err != nil {

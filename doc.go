@@ -1,6 +1,5 @@
-// jsonutils project doc.go
-
 /*
-jsonutils document
+  Package jsonutils contains jsonmin and jsonfmt commands
+
 */
 package jsonutils
