@@ -1,4 +1,4 @@
-// Package jsonutils.
+// Package jsonutils provides MinifyFile and PrettifyFile functions.
 package jsonutils
 
 import (
