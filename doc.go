@@ -1,5 +1,4 @@
 /*
-  Package jsonutils contains jsonmin and jsonfmt commands
-
+Package jsonutils contains jsonmin and jsonfmt commands.
 */
 package jsonutils

@@ -7,13 +7,13 @@ import (
 	"testing"
 )
 
-var content string = `
+var content = `
 { "hello"
  :
  "world"}
 `
-var minifiedContent string = `{"hello":"world"}`
-var prettyContent string = `{
+var minifiedContent = `{"hello":"world"}`
+var prettyContent = `{
   "hello": "world"
 }`
 var testFile = "test.json"

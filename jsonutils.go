@@ -1,4 +1,4 @@
-// jsonutils project jsonutils.go
+// Package jsonutils.
 package jsonutils
 
 import (
